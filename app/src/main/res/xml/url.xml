@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<url>
+    <Node Key="getWeatherInfo"
+        Expires="300"
+        NetType="get"
+        Url="http://www.weather.com.cn/data/sk/101010100.html" />
+
+    <Node Key="login"
+        Expires="0"
+        NetType="get"
+        MockClass="com.youngheart.mockdata.MockLoginSuccessInfo"
+        Url="http://www.weather.com.cn/data/login.api"/>
+
+    <Node Key="image"
+        Expires="0"
+        NetType="get"
+        MockClass="com.youngheart.mockdata.ImageListViewInfo"
+        Url="http://www.weather.com.cn/data/image.api"/>
+
+    <Node Key="sendException"
+        Expires="0"
+        NetType="get"
+        Url="http://192.168.9.59:8080/userInfo/app_exception_service"/>
+</url>
